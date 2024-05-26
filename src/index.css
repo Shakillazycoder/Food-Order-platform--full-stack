@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.intro-img{
+  background-image: url('../src/assets/home/chef-service.jpg');
+}
+
+.popular-img{
+  border-radius: 0px 200px 200px 200px;
+  width: 114px;
+}
+
+.featured-item{
+  background-image: url('../src/assets/home/featured.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
